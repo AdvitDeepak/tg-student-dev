@@ -1,15 +1,15 @@
-# Welcome to TigerGraph's Fullstack Class!
+# Welcome to TigerGraph's Student Developer Program!
 
-This site provides a tutorial for creating fullstack apps using TigerGraph.
+This site serves as the homepage for TigerGraph's Student Developers.
 
 Each tab is fleshed out below:
 
-- **Why Fullstack?** - learning the importance of fullstack applications
-- **Course Chapters** - seven chapters on how to create a COVID-19 tracker
-- **Finished Product** - analyzing the core features of our new fullstack app
-- **Fullstack Examples** - sample fullstack apps made using TigerGraph backend
-- **Resources** - external resources, broken down by chapter and description
-- **Community** - connecting with the TigerGraph and Quasar communities
+- **About Us** - introducing TigerGraph and the Student Dev Program
+- **Get Started** - how to create/join a TigerGraph Student Club
+- **Learn** - learning TigerGraph and its applications (GSQL, pyTG, etc.)
+- **Explore** - sample projects, both from TigerGraph and the community
+- **Clubs** - the club home-page, complete with profiles and leaderboards 
+- **Contact** - connecting with the TigerGraph community
 
 The live link to the website can be found here: *Coming soon!*
 
