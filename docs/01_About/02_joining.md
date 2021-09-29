@@ -19,7 +19,7 @@ By joining our student program, you'll...
 
 Here's all of that info condensed in a more visual format!
 
-![Flyer #1](\assets\images\flyer1.jpg)
+![Flyer #1](../assets/images/flyer1.jpg)
 
 &nbsp; &nbsp;
 
