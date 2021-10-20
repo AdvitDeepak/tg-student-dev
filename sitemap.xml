@@ -2,72 +2,97 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://tgcloud.io/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/01_About/01_tigergraph/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/01_About/02_joining/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/02_Start/01_start/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/02_Start/02_running/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/02_Start/03_support/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://tgcloud.io/03_Learn/learn/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <loc>https://tgcloud.io/03_Learn/00_00_learn/</loc>
+         <lastmod>2021-10-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tgcloud.io/03_Learn/00_01_GSQL/</loc>
+         <lastmod>2021-10-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tgcloud.io/03_Learn/01_pyTG/</loc>
+         <lastmod>2021-10-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tgcloud.io/03_Learn/02_plotly/</loc>
+         <lastmod>2021-10-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tgcloud.io/03_Learn/03_fullstack/</loc>
+         <lastmod>2021-10-20</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tgcloud.io/03_Learn/04_advanced/</loc>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/04_Explore/01_tg-projects/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/04_Explore/02_comm-projects/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/04_Explore/03_submit/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/05_Clubs/01_students/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/05_Clubs/02_points/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/05_Clubs/03_events/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://tgcloud.io/06_Contact/resources/</loc>
-         <lastmod>2021-09-29</lastmod>
+         <lastmod>2021-10-20</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

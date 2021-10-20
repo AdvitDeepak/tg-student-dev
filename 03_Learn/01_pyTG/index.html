@@ -11,21 +11,23 @@
         <meta name="description" content="Engineer your future with 🐯 TigerGraph 🐯. Join a community of passionate students and work together to learn cutting-edge technologies, develop novel applications, and discover exciting opportunites.">
       
       
+        <link rel="canonical" href="https://tgcloud.io/03_Learn/01_pyTG/">
+      
       
         <meta name="author" content="Advit Deepak">
       
-      <link rel="shortcut icon" href="/assets/favicon.png">
+      <link rel="shortcut icon" href="../../assets/favicon.png">
       <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-5.5.3">
     
     
       
-        <title>TigerGraph's Student Developers Program</title>
+        <title>pyTigerGraph - TigerGraph's Student Developers Program</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.e584d62f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.e584d62f.min.css">
       
-        <link rel="stylesheet" href="/assets/stylesheets/palette.cef4c379.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cef4c379.min.css">
       
       
         
@@ -43,12 +45,46 @@
     
     
     
-      <link rel="stylesheet" href="/stylesheets/extra.css">
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     
+  
       
     
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      document.body.addEventListener("click", ev => {
+        if (ev.target instanceof HTMLElement) {
+          var el = ev.target.closest("a[href^=http]")
+          if (el)
+            ga("send", "event", "outbound", "click", el.href)
+        }
+      })
+    })
+  </script>
+
     
+  
+  
+    
+  
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="TigerGraph's Student Developers Program - pyTigerGraph">
+  <meta property="og:description" content="Engineer your future with 🐯 TigerGraph 🐯. Join a community of passionate students and work together to learn cutting-edge technologies, develop novel applications, and discover exciting opportunites.">
+  <meta property="og:url" content="https://tgcloud.io/03_Learn/01_pyTG/">
+  <meta property="og:image" content="https://tgcloud.io/assets/images/banner.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@squidfunk">
+  <meta name="twitter:creator" content="@squidfunk">
+  <meta name="twitter:title" content="TigerGraph's Student Developers Program - pyTigerGraph">
+  <meta name="twitter:description" content="Engineer your future with 🐯 TigerGraph 🐯. Join a community of passionate students and work together to learn cutting-edge technologies, develop novel applications, and discover exciting opportunites.">
+  <meta name="twitter:image" content="https://tgcloud.io/assets/images/banner.png">
+  <link rel="stylesheet" href="../../assets/stylesheets/overrides.011ebae6.min.css">
+
   </head>
   
   
@@ -63,8 +99,26 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#pytigergraph" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
+      
+        <aside class="md-announce">
+          <div class="md-announce__inner md-grid md-typeset">
+            
+  <a href="https://discord.gg/F2c9b9v">
+    Join TigerGraph's <strong>developer chat</strong> on
+    <span class="twemoji">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M297.216 243.2c0 15.616-11.52 28.416-26.112 28.416-14.336 0-26.112-12.8-26.112-28.416s11.52-28.416 26.112-28.416c14.592 0 26.112 12.8 26.112 28.416zm-119.552-28.416c-14.592 0-26.112 12.8-26.112 28.416s11.776 28.416 26.112 28.416c14.592 0 26.112-12.8 26.112-28.416.256-15.616-11.52-28.416-26.112-28.416zM448 52.736V512c-64.494-56.994-43.868-38.128-118.784-107.776l13.568 47.36H52.48C23.552 451.584 0 428.032 0 398.848V52.736C0 23.552 23.552 0 52.48 0h343.04C424.448 0 448 23.552 448 52.736zm-72.96 242.688c0-82.432-36.864-149.248-36.864-149.248-36.864-27.648-71.936-26.88-71.936-26.88l-3.584 4.096c43.52 13.312 63.744 32.512 63.744 32.512-60.811-33.329-132.244-33.335-191.232-7.424-9.472 4.352-15.104 7.424-15.104 7.424s21.248-20.224 67.328-33.536l-2.56-3.072s-35.072-.768-71.936 26.88c0 0-36.864 66.816-36.864 149.248 0 0 21.504 37.12 78.08 38.912 0 0 9.472-11.52 17.152-21.248-32.512-9.728-44.8-30.208-44.8-30.208 3.766 2.636 9.976 6.053 10.496 6.4 43.21 24.198 104.588 32.126 159.744 8.96 8.96-3.328 18.944-8.192 29.44-15.104 0 0-12.8 20.992-46.336 30.464 7.68 9.728 16.896 20.736 16.896 20.736 56.576-1.792 78.336-38.912 78.336-38.912z"/></svg>
+    </span>
+  </a>
+
+          </div>
+        </aside>
       
     </div>
     
@@ -89,7 +143,7 @@
           </span>
           <span class="md-header-nav__topic md-ellipsis">
             
-              
+              pyTigerGraph
             
           </span>
         </div>
@@ -151,14 +205,16 @@
         
           
 
-<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  
+
+<nav class="md-tabs md-tabs--active" aria-label="Tabs" data-md-component="tabs">
   <div class="md-tabs__inner md-grid">
     <ul class="md-tabs__list">
       
         
   <li class="md-tabs__item">
     
-      <a href="/." class="md-tabs__link md-tabs__link--active">
+      <a href="../.." class="md-tabs__link">
         Home
       </a>
     
@@ -170,7 +226,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="/01_About/01_tigergraph/" class="md-tabs__link">
+        <a href="../../01_About/01_tigergraph/" class="md-tabs__link">
           About Us
         </a>
       
@@ -183,7 +239,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="/02_Start/01_start/" class="md-tabs__link">
+        <a href="../../02_Start/01_start/" class="md-tabs__link">
           Get Started
         </a>
       
@@ -196,7 +252,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="/03_Learn/00_00_learn/" class="md-tabs__link">
+        <a href="../00_00_learn/" class="md-tabs__link md-tabs__link--active">
           Learn
         </a>
       
@@ -209,7 +265,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="/04_Explore/01_tg-projects/" class="md-tabs__link">
+        <a href="../../04_Explore/01_tg-projects/" class="md-tabs__link">
           Explore
         </a>
       
@@ -222,7 +278,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="/05_Clubs/01_students/" class="md-tabs__link">
+        <a href="../../05_Clubs/01_students/" class="md-tabs__link">
           Clubs
         </a>
       
@@ -235,7 +291,7 @@
   
     <li class="md-tabs__item">
       
-        <a href="/06_Contact/resources/" class="md-tabs__link">
+        <a href="../../06_Contact/resources/" class="md-tabs__link">
           Contact
         </a>
       
@@ -289,7 +345,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/." title="Home" class="md-nav__link">
+    <a href="../.." title="Home" class="md-nav__link">
       Home
     </a>
   </li>
@@ -326,7 +382,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/01_About/01_tigergraph/" title="The TigerGraph Team" class="md-nav__link">
+    <a href="../../01_About/01_tigergraph/" title="The TigerGraph Team" class="md-nav__link">
       The TigerGraph Team
     </a>
   </li>
@@ -338,7 +394,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/01_About/02_joining/" title="Why Consider Joining?" class="md-nav__link">
+    <a href="../../01_About/02_joining/" title="Why Consider Joining?" class="md-nav__link">
       Why Consider Joining?
     </a>
   </li>
@@ -380,7 +436,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/02_Start/01_start/" title="How to Start a Club" class="md-nav__link">
+    <a href="../../02_Start/01_start/" title="How to Start a Club" class="md-nav__link">
       How to Start a Club
     </a>
   </li>
@@ -392,7 +448,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/02_Start/02_running/" title="Running a Club 101" class="md-nav__link">
+    <a href="../../02_Start/02_running/" title="Running a Club 101" class="md-nav__link">
       Running a Club 101
     </a>
   </li>
@@ -407,10 +463,12 @@
       
       
 
+  
 
-  <li class="md-nav__item md-nav__item--nested">
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
       Learn
@@ -434,7 +492,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/03_Learn/00_00_learn/" title="TigerGraph 101" class="md-nav__link">
+    <a href="../00_00_learn/" title="TigerGraph 101" class="md-nav__link">
       TigerGraph 101
     </a>
   </li>
@@ -446,7 +504,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/03_Learn/00_01_GSQL/" title="Goin' GSQL" class="md-nav__link">
+    <a href="../00_01_GSQL/" title="Goin' GSQL" class="md-nav__link">
       Goin' GSQL
     </a>
   </li>
@@ -456,11 +514,53 @@
           
           
 
+  
 
-  <li class="md-nav__item">
-    <a href="/03_Learn/01_pyTG/" title="pyTigerGraph" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        pyTigerGraph
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="pyTigerGraph" class="md-nav__link md-nav__link--active">
       pyTigerGraph
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting Started
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
         
@@ -470,7 +570,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/03_Learn/02_plotly/" title="Plotly & Dash" class="md-nav__link">
+    <a href="../02_plotly/" title="Plotly & Dash" class="md-nav__link">
       Plotly & Dash
     </a>
   </li>
@@ -482,7 +582,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/03_Learn/03_fullstack/" title="Fullstack Apps" class="md-nav__link">
+    <a href="../03_fullstack/" title="Fullstack Apps" class="md-nav__link">
       Fullstack Apps
     </a>
   </li>
@@ -494,7 +594,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/03_Learn/04_advanced/" title="Advanced Analytics" class="md-nav__link">
+    <a href="../04_advanced/" title="Advanced Analytics" class="md-nav__link">
       Advanced Analytics
     </a>
   </li>
@@ -536,7 +636,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/04_Explore/01_tg-projects/" title="TigerGraph's Projects" class="md-nav__link">
+    <a href="../../04_Explore/01_tg-projects/" title="TigerGraph's Projects" class="md-nav__link">
       TigerGraph's Projects
     </a>
   </li>
@@ -548,7 +648,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/04_Explore/02_comm-projects/" title="Community Projects" class="md-nav__link">
+    <a href="../../04_Explore/02_comm-projects/" title="Community Projects" class="md-nav__link">
       Community Projects
     </a>
   </li>
@@ -590,7 +690,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/05_Clubs/01_students/" title="Meet the Student Clubs" class="md-nav__link">
+    <a href="../../05_Clubs/01_students/" title="Meet the Student Clubs" class="md-nav__link">
       Meet the Student Clubs
     </a>
   </li>
@@ -602,7 +702,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/05_Clubs/02_points/" title="The Points System" class="md-nav__link">
+    <a href="../../05_Clubs/02_points/" title="The Points System" class="md-nav__link">
       The Points System
     </a>
   </li>
@@ -614,7 +714,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/05_Clubs/03_events/" title="Exciting Events" class="md-nav__link">
+    <a href="../../05_Clubs/03_events/" title="Exciting Events" class="md-nav__link">
       Exciting Events
     </a>
   </li>
@@ -656,7 +756,7 @@
 
 
   <li class="md-nav__item">
-    <a href="/06_Contact/resources/" title="Resources" class="md-nav__link">
+    <a href="../../06_Contact/resources/" title="Resources" class="md-nav__link">
       Resources
     </a>
   </li>
@@ -674,11 +774,79 @@
               </div>
             
             
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#getting-started" class="md-nav__link">
+    Getting Started
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           <div class="md-content">
             <article class="md-content__inner md-typeset">
               
-  <h1>404 - Not found</h1>
+  
+                
+                  <a href="https://github.com/AdvitDeepak/tg-student-dev/edit/master/docs/03_Learn/01_pyTG.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                  
+                
+                
+                <h1 id="pytigergraph">pyTigerGraph<a class="headerlink" href="#pytigergraph" title="Permanent link">&para;</a></h1>
+<p>pyTigerGraph is a Python package used to interface with one's solutions!</p>
+<h2 id="getting-started"><strong>Getting Started</strong><a class="headerlink" href="#getting-started" title="Permanent link">&para;</a></h2>
+<p>Check out the full <a href="https://pytigergraph.github.io/pyTigerGraph/GettingStarted/">pyTigerGraph page here</a> to learn more.  </p>
+<iframe src=https://pytigergraph.github.io/pyTigerGraph/GettingStarted/ width="100%" height="800"></iframe>
+
+<p>Scroll through to learn more about each aspect of pyTigerGraph!</p>
+<p>&nbsp; &nbsp;</p>
+                
+                  
+                
+              
+  <footer class="tx-content__footer md-typeset">
+    <a href="https://tigergraph.com" title="TigerGraph Website">
+      <hr>
+      <span class="twemoji">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 3h2v2H5v5a2 2 0 01-2 2 2 2 0 012 2v5h2v2H5c-1.07-.27-2-.9-2-2v-4a2 2 0 00-2-2H0v-2h1a2 2 0 002-2V5a2 2 0 012-2m14 0a2 2 0 012 2v4a2 2 0 002 2h1v2h-1a2 2 0 00-2 2v4a2 2 0 01-2 2h-2v-2h2v-5a2 2 0 012-2 2 2 0 01-2-2V5h-2V3h2m-7 12a1 1 0 011 1 1 1 0 01-1 1 1 1 0 01-1-1 1 1 0 011-1m-4 0a1 1 0 011 1 1 1 0 01-1 1 1 1 0 01-1-1 1 1 0 011-1m8 0a1 1 0 011 1 1 1 0 01-1 1 1 1 0 01-1-1 1 1 0 011-1z"/></svg>
+      </span>
+      <span class="twemoji">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+      </span>
+      <span class="twemoji tx-heart">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14 20.408c-.492.308-.903.546-1.192.709-.153.086-.308.17-.463.252h-.002a.75.75 0 01-.686 0 16.709 16.709 0 01-.465-.252 31.147 31.147 0 01-4.803-3.34C3.8 15.572 1 12.331 1 8.513 1 5.052 3.829 2.5 6.736 2.5 9.03 2.5 10.881 3.726 12 5.605 13.12 3.726 14.97 2.5 17.264 2.5 20.17 2.5 23 5.052 23 8.514c0 3.818-2.801 7.06-5.389 9.262A31.146 31.146 0 0114 20.408z"/></svg>
+      </span>
+      <hr>
+    </a>
+  </footer>
 
               
                 
@@ -692,6 +860,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../00_01_GSQL/" title="Goin' GSQL" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Goin' GSQL
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../02_plotly/" title="Plotly & Dash" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Plotly & Dash
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -713,15 +916,15 @@
       
     </div>
     
-      <script src="/assets/javascripts/vendor.c3dc8c49.min.js"></script>
-      <script src="/assets/javascripts/bundle.30071cf1.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      <script src="../../assets/javascripts/vendor.c3dc8c49.min.js"></script>
+      <script src="../../assets/javascripts/bundle.30071cf1.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
       
       <script>
         app = initialize({
-          base: "/",
+          base: "../..",
           features: ["tabs", "navigation.top", "navigation.sections", "navigation.tracking", "navigation.tabs.sticky"],
           search: Object.assign({
-            worker: "/assets/javascripts/worker/search.8e2cddea.min.js"
+            worker: "../../assets/javascripts/worker/search.8e2cddea.min.js"
           }, typeof search !== "undefined" && search)
         })
       </script>
