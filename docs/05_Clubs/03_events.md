@@ -7,10 +7,10 @@ title: Exciting Events
 
 TigerGraph will host events exclusively for clubs to participate in, including:
 
-* TigerGraph Clap Wars
-* TigerGraph Student Conference (a "Shark Tank" or "Tiger Tank" type of competition)
+* TigerGraph **Clap Wars**
+* TigerGraph **Student Conference** (a "Shark Tank" or "Tiger Tank" type of competition)
 
-If you or your club wants to host a local conference, message us here so we can help promote it!
+If you or your club wants to host a local conference, message us so we can help promote it!
 
 ## **Upcoming Events**
 
@@ -23,3 +23,4 @@ If you or your club wants to host a local conference, message us here so we can 
 ???+ tip "Tiger Tank"
 
     At the end of the year, compete in a "Shark Tank" style competition, pitching your awesome TigerGraph projects to real companies!
+    In addition to this exciting opportunity, you'll be able to share your ideas with the Community! 

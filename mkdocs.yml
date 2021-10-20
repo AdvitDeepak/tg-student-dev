@@ -147,21 +147,18 @@ nav:
   - Get Started:
     - How to Start a Club: 02_Start/01_start.md
     - Running a Club 101: 02_Start/02_running.md
-    - Support, Resources: 02_Start/03_support.md
 
   - Learn:
-    - TigerGraph 101: 03_Learn/learn.md
-    - Goin' GSQL: 03_Learn/learn.md
-    - pyTigerGraph: 03_Learn/learn.md
-    - Plotly Dash: 03_Learn/learn.md
-    - Fullstack Apps: 03_Learn/learn.md
-    - Advanced Analytics: 03_Learn/learn.md
-    - Machine Learning: 03_Learn/learn.md
+    - TigerGraph 101: 03_Learn/00_00_learn.md
+    - Goin' GSQL: 03_Learn/00_01_GSQL.md
+    - pyTigerGraph: 03_Learn/01_pyTG.md
+    - Plotly & Dash: 03_Learn/02_plotly.md
+    - Fullstack Apps: 03_Learn/03_fullstack.md
+    - Advanced Analytics: 03_Learn/04_advanced.md
 
   - Explore:
     - TigerGraph's Projects: 04_Explore/01_tg-projects.md
     - Community Projects: 04_Explore/02_comm-projects.md
-    - How to Submit Projects: 04_Explore/03_submit.md
 
   - Clubs:
     - Meet the Student Clubs: 05_Clubs/01_students.md
