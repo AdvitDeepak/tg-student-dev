@@ -39,10 +39,10 @@ For the 2021-2022 school year, here's the expected timeline:
 &nbsp; &nbsp;
 
 Definitely sounds like a cool journey, with lots of experience, mentorship, and opportunities along the way! However,
-this isn't all for our Student Developer Program. Although we didn't get a chance to share these yet, here are some upcoming extensions we have in the works
+this isn't all for our Student Developer Program. Although we didn't get a chance to share these yet, here are some upcoming extensions we have in the works:
 
 * Seasonal, themed competitions similar to FIRST Lego League, VEX
-* <>
+* Cross-campus collaboration projects where different clubs work together 
 
 Who knows, maybe you could help shape this program with your ideas as well!
 

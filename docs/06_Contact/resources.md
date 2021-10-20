@@ -5,6 +5,13 @@ title: Contact
 
 # Contact
 
+As a reminder, your primary point of contact should be your assigned
+<font color='#DD6EOF'>TigerGraph representative!</font>
+
+However, feel free to check out all of these amazing resources as well:
+
+&nbsp; &nbsp;
+
 Want to learn TigerGraph? Check out this list of places to start!
 
 [Learn TigerGraph Cloud](https://www.tigergraph.com/blog/getting-started-with-tigergraph-3-0/){ .md-button .md-button--primary }
